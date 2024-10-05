@@ -1698,11 +1698,15 @@ footer {
     height: 60%;
   }
   .image-div {
-    height: 40%;
-    padding-left: 50px;
+    display: contents;
+    padding: 0px;
   }
+
   .image-div img {
+    height: auto;
+    width: 100%;
     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   .tech-stack-wrapper {
     display: grid;
